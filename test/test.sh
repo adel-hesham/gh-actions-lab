@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CPP_FILE="main.cpp"
-OUTPUT_BINARY="main.out"
+CPP_FILE="app/main.cpp"
+OUTPUT_BINARY="app/main.out"
 EXPECTED_OUTPUT="Hello, World!"
 
 # Compile the C++ file
