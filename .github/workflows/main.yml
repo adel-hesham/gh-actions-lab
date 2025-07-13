@@ -5,6 +5,12 @@ on:
     paths: 
       - app/main.cpp
       - test/test.sh
+  pull_request:
+    branches: 
+      - main
+    paths:
+      - app/main.cpp
+      - test/test.sh
 jobs:
   test:
     runs-on: ubuntu-latest
