@@ -18,7 +18,7 @@ ACTUAL_OUTPUT=$(./"$OUTPUT_BINARY")
 
 # Check the output
 if [ "$ACTUAL_OUTPUT" == "$EXPECTED_OUTPUT" ]; then
-    echo "✅ Test passed: Output is '$EXPECTED_OUTPUT'"
+    echo "✅ Test passed: Output is '$EXPECTED_OUTPUT'test 2"
     exit 0
 else
     echo "❌ Test failed: Expected '$EXPECTED_OUTPUT' but got '$ACTUAL_OUTPUT'"
